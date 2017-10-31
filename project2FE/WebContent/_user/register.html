@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<a href="#/" style="color:blue"  class="btn btn-primary">  <b>  X Close </b></a> 
+
+				
+<div class="container-fluid" >
+	<div class="row" align="left">
+ 		<div class="col-sm-12" style="background: rgba(76, 175, 80, 0.0)"> 
+ 	 
+	    	<form class="form-horizontal" action="" accept-charset="utf-8">
+	  			{{errmsg}}
+	    		<div class="form-group">
+					<label for="name" class="cols-md-10 control-label" style="color:blue; font-align:center";>New User Registration Form</label><br>
+				</div>			    
+				<div class="form-group">
+					<label for="name" class="cols-sm-2 control-label">Enter User Name</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+							<input type="text" class="form-control"  ng-model="user.fullname"   placeholder="Enter your user Name"/>
+						</div>
+					</div>
+				</div>	  
+				<div class="form-group">
+					<label for="name" class="cols-sm-2 control-label">Enter Password</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+							<input type="password" class="form-control"  ng-model="user.password"   placeholder="Enter your Password"/>
+						</div>
+					</div>
+				</div>	  
+				<div class="form-group">
+					<label for="name" class="cols-sm-2 control-label">Enter Mobile No.</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+							<input type="text" class="form-control"  ng-model="user.mobileno"   placeholder="Enter your Mobile No."/>
+						</div>
+					</div>
+				</div>	  
+				<div class="form-group">
+					<label for="name" class="cols-sm-2 control-label">Enter Email ID</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+							<input type="text" class="form-control"  ng-model="user.emailid"   placeholder="Enter your E-Mail ID"/>
+						</div>
+					</div>
+				</div>	  
+				<div class="form-group">
+					<label for="name" class="cols-sm-2 control-label">Enter Address</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+							<input type="text" class="form-control"  ng-model="user.address"   placeholder="Enter your Address"/>
+						</div>
+					</div>
+				</div>	  
+				<div class="form-group">
+					<label for="name" class="cols-sm-2 control-label">Enter City</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+							<input type="text" class="form-control"  ng-model="user.city"   placeholder="Enter your City"/>
+						</div>
+					</div>
+				</div>	  
+				<div class="form-group">
+					<label for="name" class="cols-sm-2 control-label">Enter State</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+							<input type="text" class="form-control"  ng-model="user.state"   placeholder="Enter your State"/>
+						</div>
+					</div>
+				</div>	  
+				<div class="form-group">
+					<label for="name" class="cols-sm-2 control-label">Enter Country</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+							<input type="text" class="form-control"  ng-model="user.country"   placeholder="Enter your Country"/>
+						</div>
+					</div>
+				</div>	  
+		    	<div class="form-group ">
+					<input type="submit" value="Register" class="btn btn-primary" ng-click="registerUser()" /> 
+					
+				</div>
+				
+	    	
+	    	</form>	    	
+	    </div>
+	</div>
+</div>	
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!-- 
+
+
+Registration page
+<br>
+
+<form>
+	<br>User Name <input type="text" ng-model="user.fullname"/>
+	<br>Password <input type ="password" ng-model="user.password"/>
+	<br>Mobile No. <input type ="text" ng-model="user.mobileno"/>
+	<br>Email ID <input type ="text" ng-model="user.emailid"/>
+	<br>Address <input type ="text" ng-model="user.address"/>
+	<br>City <input type ="text" ng-model="user.city"/>
+	<br>State <input type ="text" ng-model="user.state"/>
+	<br>Country <input type ="text" ng-model="user.country"/>
+	
+	
+	 
+<br>
+<input type="submit" ng-click="registerUser()"  value="Regester"/>
+ -->   

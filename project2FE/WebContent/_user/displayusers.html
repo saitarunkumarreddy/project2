@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- {{users}} -->
+<a href="#/" style="color:yellow"  class="btn btn-primary">  <b>  X Close </b></a> 
+
+<div class="container-fluid" >
+	<div class="row" align="left">
+ 		<div class="col-sm-12" style="background: rgba(76, 175, 80, 0.0)"> 
+ 
+<table border="4px" class="container" style="background: rgba(76, 175, 80, 0.0);width:100%">
+<tr>
+<th>User Name</th> <th>Is Online</th>
+</tr>
+<tr ng-repeat="user in users">
+<td style="color:blue">  <img src="http://localhost1:2020/group1/resources/images/users/{{user.userid}}.jpg" height="80px" width="100px"  hspace="10"  vspace="5"/>   <b>  {{user.fullname}} </b></td>  
+<td>{{user.isonline}}</td>
+<!-- <td><a href="" style="color:yellow" class="btn btn-warning btn-large">Chat</a></td> -->
+</tr>
+
+
+
+</table>
+</div>
+</div>
+</div>
+
+</body>
+</html>

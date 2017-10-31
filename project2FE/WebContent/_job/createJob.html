@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<a href="#/" style="color:blue"  class="btn btn-primary">  <b>  X Close </b></a> 
+
+				
+<div class="container-fluid" >
+	<div class="row" align="left">
+ 		<div class="col-sm-12" style="background: rgba(76, 175, 80, 0.0)"> 
+ 	 
+			<form class="form-horizontal" action="" accept-charset="utf-8">
+	    		<div class="form-group">
+					<label for="name" class="cols-md-10 control-label" style="color:blue; font-align:center";>Post New Job</label><br>
+				</div>			
+				<div class="form-group">
+					<label for="name" class="cols-sm-2 control-label">Enter Job Titile</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+							<input type="text" class="form-control"  ng-model="job.jobtitle"   placeholder="Enter Job Title"/>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="name" class="cols-sm-2 control-label">Enter Job Description</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+							<input type="textarea" class="form-control"  ng-model="job.jobdesc"   placeholder="Enter Job Description"/>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="name" class="cols-sm-2 control-label">Enter Job QUalification</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+							<input type="text" class="form-control"  ng-model="job.qualification"   placeholder="Enter Job Qualification"/>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="name" class="cols-sm-2 control-label">Enter Required Skills</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+							<input type="text" class="form-control"  ng-model="job.skillreq"   placeholder="Enter Job Skills Required"/>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="name" class="cols-sm-2 control-label">Enter Salary</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+							<input type="text" class="form-control"  ng-model="job.salary"   placeholder="Enter Job Skills Required"/>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="name" class="cols-sm-2 control-label">Enter Location</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+							<input type="text" class="form-control"  ng-model="job.location"   placeholder="Enter Job Skills Required"/>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="name" class="cols-sm-2 control-label">Enter Company URL</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+							<input type="text" class="form-control"  ng-model="job.companyurl"   placeholder="Enter Job Skills Required"/>
+						</div>
+					</div>
+				</div>
+		    	<div class="form-group ">
+		    						<input type="submit" value="Post Job" class="btn btn-primary" ng-click="saveJob()" /> 					
+				</div>
+
+
+
+			</form>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+<table>
+<tr>
+<td>Job Title</td>
+<td><input type="text" ng-model="job.jobtitle"></td>
+</tr>
+
+
+<tr>
+<td>Job Description</td>
+<td><textarea ng-model="job.jobdesc"></textarea></td>
+</tr>
+
+<tr>
+<td>Qualification</td>
+<td><input type="text" ng-model="job.qualification"></td>
+</tr>
+
+<tr>
+<td>Skills Required</td>
+<td><input type="text" ng-model="job.skillreq"></td>
+</tr>
+
+<tr>
+<td>Salary</td>
+<td><input type="text" ng-model="job.salary"></td>
+</tr>
+
+<tr>
+<td>location</td>
+<td><input type="text" ng-model="job.location"></td>
+</tr>
+
+<tr>
+<td>Company URL</td>
+<td><input type="text" ng-model="job.companyurl"></td>
+</tr>
+
+<tr>
+<td>
+<input type="submit" value="Post Job" ng-click="saveJob()">
+</td>
+</tr>
+</table>
+
+ -->

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<a href="#/" style="color:blue"  class="btn btn-primary">  <b>  X Close </b></a> 
+
+<div class="container-fluid" >
+	<div class="row" align="left">
+ 		<div class="col-sm-12" style="background: rgba(76, 175, 80, 0.0)"> 
+ 	
+<table border="2px"  style="background: rgba(76, 175, 80, 0.9);width:100%" >
+
+<tr>
+<th>Blog Title</th> <th>Blog Content</th> <th>Created By</th> <th>Creation Date</th> 
+</tr>
+
+<tr ng-repeat="blog in blogs" class="table-striped">
+<td>{{blog.blogTitle}}</td> <td>{{blog.blogContent}}</td> <td>{{blog.blogCreatedUser}}</td> <td>{{blog.blogCreationDate}}</td> 
+
+</tr>
+
+
+
+</table>
+</div>
+</div>
+</div>
+
+</body>
+</html>

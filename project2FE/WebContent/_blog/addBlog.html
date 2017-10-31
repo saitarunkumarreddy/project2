@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Blog</title>
+</head>
+<body>
+
+				
+	<a href="#/" style="color:blue"  class="btn btn-primary">  <b>  X Close </b></a> 
+
+				
+<div class="container-fluid" >
+	<div class="row" align="left">
+ 		<div class="col-sm-12" style="background: rgba(76, 175, 80, 0.0)"> 
+ 		
+			<form class="form-horizontal" action="" accept-charset="utf-8">
+	    		<div class="form-group">
+					<label for="name" class="cols-md-10 control-label" style="color:blue; font-align:center";>Add New Blog</label><br>
+				</div>			
+				<div class="form-group">
+					<label for="name" class="cols-sm-2 control-label">Enter Blog Titile</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+							<input type="text" class="form-control"  ng-model="blog.blogTitle"   placeholder="Enter Blog Title"/>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="name" class="cols-sm-2 control-label">Enter Blog Content</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+							<textarea class="form-control"  ng-model="blog.blogContent" rows="15" cols="100" placeholder="Enter Blog Content"> </textarea>
+						</div>
+					</div>
+				</div>
+			
+	<div class="form-group ">
+					<input type="submit" value="Add Blog" class="btn btn-primary" ng-click="addBlog()" /> 
+				
+</div>	    	
+
+
+
+			</form>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>

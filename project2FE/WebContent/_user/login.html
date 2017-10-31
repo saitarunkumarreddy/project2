@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+
+
+</head>
+<body>
+
+<a href="#/" style="color:blue"  class="btn btn-primary">  <b>  X Close </b></a> 
+
+<div class="container" >
+	<div class="row" align="left"> 	
+ 		<div class="col-sm-3" style="background: rgba(76, 175, 80, 0.0)">  
+ 			{{message}}
+	    	<form class="form-horizontal" action="" accept-charset="utf-8">
+	    	
+	    		<div class="form-group">
+					<label for="name" class="cols-md-10 control-label" style="color:blue; font-align:center";>Login Screen</label><br>
+				</div>			    
+				<div class="form-group">
+					<label for="name" class="cols-sm-2 control-label">Enter User Name</label>
+					
+					
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+							<input type="text" class="form-control"  ng-model="user.userid" placeholder="Enter your user ID"/>
+						</div>
+					</div>
+				</div>	  
+				<div class="form-group">
+					<label for="name" class="cols-sm-2 control-label">Enter Password</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+							<input type="password" class="form-control"  ng-model="user.password"   placeholder="Enter your Password"/>
+						</div>
+					</div>
+				</div>	  
+		    	<div class="form-group ">
+					<input type="submit" value="Login" class="btn btn-primary" ng-click="submit()" method="POST"/> 
+					<br><b>Forgot Password?</b> <a href ="reqForgotPwd"><b style="color:blue">Recover</b></a>
+					<br><b>New User?</b> <a href="#/register" ><b style="color:blue">SignUp</b></a>					
+				</div>
+				
+				
+		        			    
+			</form>	 
+		</div>
+ 	</div>
+ </div>
+
+
+</body>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-resource.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-cookies.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	
+	
+</html>
